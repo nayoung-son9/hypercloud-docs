@@ -22,7 +22,7 @@
 # topic groups and topics on the main page.
 
 ---
-Name: Welcome
+Name: 3-en test
 Dir: welcome
 Topics:
   - Name: Overview
@@ -33,79 +33,3 @@ Topics:
     File: legal-notice
   - Name: Release Notes
     File: release-note
----
-Name: Components
-Dir: component
-Topics:
-  - Name: HyperCloud Operator
-    File: hypercloud-operator
-  - Name: HyperCloud Console
-    File: hypercloud-console
-  - Name: Kubernetes
-    File: kubernetes
-  - Name: Compute
-    Dir: compute
-    Topics:
-      - Name: Docker
-        File: docker
-      - Name: CRI-O
-        File: cri-o
-  - Name: Storage
-    Dir: storage
-    Topics:
-      - Name: Rook Ceph
-        File: rook-ceph
-      - Name: NFS
-        File: nfs
-  - Name: Network
-    Dir: network
-    Topics:
-      - Name: Calico
-        File: calico
-  - Name: Plugin
-    Dir: plugin
-    Topics:
-      - Name: Prometheus
-        File: prometheus
-      - Name: Grafana
-        File: grafana
-      - Name: Tekton
-        File: tekton
-      - Name: Kubevirt
-        File: kubevirt
----
-Name: Install Guide
-Dir: installation_guide
-Topics:
-  - Name: Overview
-    File: index
----
-Name: Tuning Guide
-Dir: tuning_guide
-Topics:
-  - Name: Overview
-    File: index
----
-Name: Backup & Restore
-Dir: backup_and_restore
-Topics:
-  - Name: Overview
-    File: index
----
-Name: User Guide
-Dir: user_guide
-Topics:
-  - Name: Overview
-    File: index
-  - Name: Login
-    File: login
----
-Name: API Reference
-Dir: api_reference
-Topics:
-  - Name: Master API
-    File: master-api
-  - Name: Kubernetes API
-    File: kubernetes-api
-  - Name: Prometheus API
-    File: prometheus-api

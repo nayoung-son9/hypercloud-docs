@@ -22,7 +22,7 @@
 # topic groups and topics on the main page.
 
 ---
-Name: Welcome
+Name: 3-ko 테스트
 Dir: welcome
 Topics:
   - Name: 제품소개
@@ -33,79 +33,3 @@ Topics:
     File: legal-notice
   - Name: 릴리즈노트
     File: release-note
----
-Name: 구성요소
-Dir: component
-Topics:
-  - Name: HyperCloud Operator
-    File: hypercloud-operator
-  - Name: HyperCloud Console
-    File: hypercloud-console
-  - Name: Kubernetes
-    File: kubernetes
-  - Name: Compute
-    Dir: compute
-    Topics:
-      - Name: Docker
-        File: docker
-      - Name: CRI-O
-        File: cri-o
-  - Name: Storage
-    Dir: storage
-    Topics:
-      - Name: Rook Ceph
-        File: rook-ceph
-      - Name: NFS
-        File: nfs
-  - Name: Network
-    Dir: network
-    Topics:
-      - Name: Calico
-        File: calico
-  - Name: Plugin
-    Dir: plugin
-    Topics:
-      - Name: Prometheus
-        File: prometheus
-      - Name: Grafana
-        File: grafana
-      - Name: Tekton
-        File: tekton
-      - Name: Kubevirt
-        File: kubevirt
----
-Name: 인스톨 가이드
-Dir: installation_guide
-Topics:
-  - Name: 개요
-    File: index
----
-Name: 튜닝 가이드
-Dir: tuning_guide
-Topics:
-  - Name: 개요
-    File: index
----
-Name: 백업 및 복구
-Dir: backup_and_restore
-Topics:
-  - Name: 개요
-    File: index
----
-Name: 사용자가이드
-Dir: user_guide
-Topics:
-  - Name: 개요
-    File: index
-  - Name: 로그인
-    File: login
----
-Name: API Reference
-Dir: api_reference
-Topics:
-  - Name: Master API
-    File: master-api
-  - Name: Kubernetes API
-    File: kubernetes-api
-  - Name: Prometheus API
-    File: prometheus-api

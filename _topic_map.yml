@@ -25,11 +25,11 @@
 Name: 3-ko 테스트
 Dir: welcome
 Topics:
-  - Name: 제품소개
+  - Name: Overview
     File: index
-  - Name: 장/단점
+  - Name: Pros & Cons
     File: pros-cons
-  - Name: 법적공지
+  - Name: Legal Notice
     File: legal-notice
   - Name: 릴리즈노트
     File: release-note
